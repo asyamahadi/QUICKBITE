@@ -1,0 +1,39 @@
+MENU As screen:
+
+    TextInput2 As text:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Default: ="Product Category"
+        DisabledBorderColor: |
+            =RGBA(0, 0, 0, 0)
+        Height: =70
+        Size: =21
+        Width: =560
+        X: =21
+        Y: =171
+        ZIndex: =5
+
+    Container4 As groupContainer.manualLayoutContainer:
+        Height: =199
+        Width: =572
+        X: =37
+        Y: =241
+        ZIndex: =6
+
+        Label2 As label:
+            Height: =38
+            Size: =21
+            Text: ="Text"
+            Width: =138
+            X: =213
+            Y: =53
+            ZIndex: =1
+
+        Label3 As label:
+            Height: =28
+            Size: =21
+            Text: ="Text"
+            Width: =138
+            X: =213
+            Y: =91
+            ZIndex: =2
+

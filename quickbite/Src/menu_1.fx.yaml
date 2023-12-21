@@ -1,0 +1,20 @@
+menu As screen:
+
+    "'Scrolable vertical container' As groupContainer.verticalAutoLayoutContainer":
+        ContentLanguage: =Parent.Width
+        Height: =1136
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        LayoutOverflowY: =LayoutOverflow.Scroll
+        Width: =640
+        ZIndex: =1
+
+        Container12 As groupContainer.manualLayoutContainer:
+            AlignInContainer: =AlignInContainer.Center
+            Height: =225
+            LayoutMinHeight: =112
+            LayoutMinWidth: =250
+            PaddingLeft: =20
+            PaddingRight: =20
+            ZIndex: =1
+
