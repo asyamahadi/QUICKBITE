@@ -12,7 +12,7 @@ Screen1 As screen:
     Rectangle1 As rectangle:
         Height: =396
         Width: =370
-        X: =60
-        Y: =60
+        X: =190
+        Y: =458
         ZIndex: =2
 
