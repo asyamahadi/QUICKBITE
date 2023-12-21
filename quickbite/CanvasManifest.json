@@ -114,7 +114,7 @@
     "Id": "e4e46924-8c79-4f8b-91ba-b20765524879",
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "{}",
-    "ManualOfflineProfileId": "",
+    "ManualOfflineProfileId": null,
     "Name": "oo",
     "OriginatingVersion": "1.336",
     "ParserErrorCount": 0,
@@ -132,6 +132,7 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "Screen1"
+    "Screen1",
+    "Screen2"
   ]
 }
