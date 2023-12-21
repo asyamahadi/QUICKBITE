@@ -52,7 +52,7 @@
                 Y: =30
                 ZIndex: =2
 
-            "'Ayam Perap' As groupContainer.manualLayoutContainer":
+            "'Ayam Perap pc' As groupContainer.manualLayoutContainer":
                 Height: =202
                 Width: =542
                 X: =48
