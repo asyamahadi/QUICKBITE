@@ -84,7 +84,7 @@
                     Y: =40
                     ZIndex: =1
 
-            "'Kambing Perap' As groupContainer.manualLayoutContainer":
+            "'Kambing Perap pc' As groupContainer.manualLayoutContainer":
                 Height: =202
                 Width: =542
                 X: =49
@@ -100,7 +100,7 @@
                     Y: =40
                     ZIndex: =1
 
-            "'Lembu Perap' As groupContainer.manualLayoutContainer":
+            "'Lembu Perap pc' As groupContainer.manualLayoutContainer":
                 Height: =202
                 Width: =542
                 X: =48
