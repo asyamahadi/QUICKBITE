@@ -1,0 +1,130 @@
+"'Homemade Meatball Detail' As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
+
+    RectQuickActionBar1_6 As rectangle:
+        Height: =88
+        Width: =Parent.Width
+        ZIndex: =1
+
+    LblAppName1_6 As label:
+        Align: =Align.Center
+        DisabledBorderColor: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(227, 234, 243, 1)
+        Height: =88
+        Size: =27
+        Text: ="[Title]"
+        Width: =Parent.Width
+        ZIndex: =2
+
+    Canvas1_6 As fluidGrid.fluidGridWithBlankCard:
+        BorderThickness: =0
+        Height: =Parent.Height - Self.Y
+        Width: =Parent.Width
+        Y: =RectQuickActionBar1_6.Y + RectQuickActionBar1_6.Height
+        ZIndex: =3
+
+        DataCard1_6 As dataCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            BorderThickness: =0
+            DisplayMode: =DisplayMode.Disabled
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =Parent.Height - 100
+            Width: =Parent.Width
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+            Label4_6 As label:
+                Height: =62
+                Size: =21
+                Text: ="Meatball"
+                Width: =315
+                X: =26
+                Y: =86
+                ZIndex: =1
+
+            TextInput1_6 As text:
+                Default: ="Text input"
+                Height: =44
+                Size: =21
+                Width: =252
+                X: =352
+                Y: =30
+                ZIndex: =2
+
+            "'Ayam Perap pc_14' As groupContainer.manualLayoutContainer":
+                Height: =1210
+                Width: =571
+                X: =33
+                Y: =168
+                ZIndex: =3
+
+                Label6_23 As label:
+                    Height: =74
+                    Size: =32
+                    Text: ="Homemade Meatball"
+                    Width: =476
+                    X: =33
+                    Y: =667
+                    ZIndex: =1
+
+                "'Ayam Perap pc_15' As groupContainer.manualLayoutContainer":
+                    Height: =611
+                    Width: =571
+                    ZIndex: =3
+
+                    Image4 As image:
+                        Height: =611
+                        Image: ='download (1)'
+                        Width: =571
+                        ZIndex: =1
+
+                Label6_24 As label:
+                    Height: =44
+                    Size: =28
+                    Text: ="RM 33.90"
+                    Width: =195
+                    X: =33
+                    Y: =741
+                    ZIndex: =4
+
+                Label6_25 As label:
+                    Height: =145
+                    Size: =18
+                    Text: |-
+                        ="500  gram (10 pcs)
+                        99% ISI DAGING
+                        BERSAMA SOS LADA HITAM (150GRAM)
+                        EXPIRED DATE : 6 BULAN"
+                    Width: =479
+                    X: =63
+                    Y: =807
+                    ZIndex: =5
+
+                Label6_22 As label:
+                    Height: =27
+                    Size: =18
+                    Text: ="🔥 78 unit terjual"
+                    Width: =242
+                    X: =24
+                    Y: =640
+                    ZIndex: =7
+
+                Button1_5 As button:
+                    Height: =60
+                    Size: =24
+                    Text: ="Buy Now"
+                    Width: =171
+                    X: =370
+                    Y: =1026
+                    ZIndex: =8
+
+                Button1_4 As button:
+                    Height: =60
+                    Size: =24
+                    Text: ="Add Cart"
+                    Width: =172
+                    X: =186
+                    Y: =1026
+                    ZIndex: =9
+

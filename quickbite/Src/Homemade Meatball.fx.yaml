@@ -1,0 +1,106 @@
+"'Homemade Meatball' As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
+
+    RectQuickActionBar1_5 As rectangle:
+        Height: =88
+        Width: =Parent.Width
+        ZIndex: =1
+
+    LblAppName1_5 As label:
+        Align: =Align.Center
+        DisabledBorderColor: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(227, 234, 243, 1)
+        Height: =88
+        Size: =27
+        Text: ="[Title]"
+        Width: =Parent.Width
+        ZIndex: =2
+
+    Canvas1_5 As fluidGrid.fluidGridWithBlankCard:
+        BorderThickness: =0
+        Height: =Parent.Height - Self.Y
+        Width: =Parent.Width
+        Y: =RectQuickActionBar1_5.Y + RectQuickActionBar1_5.Height
+        ZIndex: =3
+
+        DataCard1_5 As dataCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            BorderThickness: =0
+            DisplayMode: =DisplayMode.Disabled
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =Parent.Height - 100
+            Width: =Parent.Width
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+            Label4_5 As label:
+                Height: =62
+                Size: =21
+                Text: ="Meatball"
+                Width: =315
+                X: =26
+                Y: =86
+                ZIndex: =1
+
+            TextInput1_5 As text:
+                Default: ="Text input"
+                Height: =44
+                Size: =21
+                Width: =252
+                X: =352
+                Y: =30
+                ZIndex: =2
+
+            "'Ayam Perap pc_7' As groupContainer.manualLayoutContainer":
+                Height: =442
+                Width: =275
+                X: =33
+                Y: =168
+                ZIndex: =3
+
+                Label6_11 As label:
+                    Height: =74
+                    Size: =21
+                    Text: ="Homemade Meatball"
+                    Width: =246
+                    X: =12
+                    Y: =304
+                    ZIndex: =1
+
+                "'Ayam Perap pc_13' As groupContainer.manualLayoutContainer":
+                    Height: =291
+                    Width: =275
+                    ZIndex: =3
+
+                    Image3 As image:
+                        Height: =291
+                        Image: ='download (1)'
+                        Width: =275
+                        ZIndex: =1
+
+                Label6_21 As label:
+                    Height: =29
+                    Size: =21
+                    Text: ="RM33.90"
+                    Width: =140
+                    X: =12
+                    Y: =384
+                    ZIndex: =4
+
+            "'Ayam Perap pc_8' As groupContainer.manualLayoutContainer":
+                Height: =442
+                Width: =273
+                X: =331
+                Y: =168
+                ZIndex: =4
+
+                Label6_12 As label:
+                    Height: =42
+                    Size: =21
+                    Text: ="Text"
+                    Width: =182
+                    X: =54
+                    Y: =294
+                    ZIndex: =1
+
