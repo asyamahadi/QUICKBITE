@@ -1,0 +1,131 @@
+"'Ayam Perap Deatil' As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
+
+    RectQuickActionBar1_2 As rectangle:
+        Height: =88
+        Width: =Parent.Width
+        ZIndex: =1
+
+    LblAppName1_2 As label:
+        Align: =Align.Center
+        DisabledBorderColor: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(227, 234, 243, 1)
+        Height: =88
+        Size: =27
+        Text: ="[Title]"
+        Width: =Parent.Width
+        ZIndex: =2
+
+    Canvas1_2 As fluidGrid.fluidGridWithBlankCard:
+        BorderThickness: =0
+        Height: =Parent.Height - Self.Y
+        Width: =Parent.Width
+        Y: =RectQuickActionBar1_2.Y + RectQuickActionBar1_2.Height
+        ZIndex: =3
+
+        DataCard1_2 As dataCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            BorderThickness: =0
+            DisplayMode: =DisplayMode.Disabled
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =Parent.Height - 100
+            Width: =Parent.Width
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+            Label4_2 As label:
+                Height: =62
+                Size: =21
+                Text: ="Ayam"
+                Width: =315
+                X: =26
+                Y: =86
+                ZIndex: =1
+
+            TextInput1_2 As text:
+                Default: ="Text input"
+                Height: =44
+                Size: =21
+                Width: =252
+                X: =352
+                Y: =30
+                ZIndex: =2
+
+            "'Ayam Perap pc_3' As groupContainer.manualLayoutContainer":
+                Height: =1210
+                Width: =571
+                X: =33
+                Y: =168
+                ZIndex: =3
+
+                Label6_7 As label:
+                    Height: =74
+                    Size: =32
+                    Text: ="Ayam Perap"
+                    Width: =254
+                    X: =33
+                    Y: =667
+                    ZIndex: =1
+
+                "'Ayam Perap pc_10' As groupContainer.manualLayoutContainer":
+                    Height: =611
+                    Width: =571
+                    ZIndex: =3
+
+                    Image5_1 As image:
+                        DisabledBorderColor: =RGBA(187, 221, 140, 1)
+                        Height: =611
+                        Image: ='ayam-removebg-preview'
+                        Width: =571
+                        ZIndex: =1
+
+                Label6_14 As label:
+                    Height: =44
+                    Size: =28
+                    Text: ="RM43.90"
+                    Width: =195
+                    X: =33
+                    Y: =741
+                    ZIndex: =4
+
+                Label6_15 As label:
+                    Height: =145
+                    Size: =18
+                    Text: |-
+                        ="5 PCS (1KG+)
+                        BAHAGIAN PEHA TANPA TULANG
+                        BERSAMA SOS LADA HITAM (150GRAM)
+                        EXPIRED DATE : 6 BULAN"
+                    Width: =479
+                    X: =63
+                    Y: =807
+                    ZIndex: =5
+
+                Label6_17 As label:
+                    Height: =27
+                    Size: =18
+                    Text: ="🔥 504 unit terjual"
+                    Width: =242
+                    X: =24
+                    Y: =640
+                    ZIndex: =7
+
+                Button1 As button:
+                    Height: =60
+                    Size: =24
+                    Text: ="Buy Now"
+                    Width: =171
+                    X: =370
+                    Y: =1026
+                    ZIndex: =8
+
+                Button1_1 As button:
+                    Height: =60
+                    Size: =24
+                    Text: ="Add Cart"
+                    Width: =172
+                    X: =186
+                    Y: =1026
+                    ZIndex: =9
+
