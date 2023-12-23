@@ -1,0 +1,129 @@
+"'Kambing Perap Detail_1' As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
+
+    RectQuickActionBar1_9 As rectangle:
+        Height: =88
+        Width: =Parent.Width
+        ZIndex: =1
+
+    LblAppName1_9 As label:
+        Align: =Align.Center
+        DisabledBorderColor: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(227, 234, 243, 1)
+        Height: =88
+        Size: =27
+        Text: ="[Title]"
+        Width: =Parent.Width
+        ZIndex: =2
+
+    Canvas1_9 As fluidGrid.fluidGridWithBlankCard:
+        BorderThickness: =0
+        Height: =Parent.Height - Self.Y
+        Width: =Parent.Width
+        Y: =RectQuickActionBar1_9.Y + RectQuickActionBar1_9.Height
+        ZIndex: =3
+
+        DataCard1_9 As dataCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            BorderThickness: =0
+            DisplayMode: =DisplayMode.Disabled
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =Parent.Height - 100
+            Width: =Parent.Width
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+            Label4_9 As label:
+                Height: =62
+                Size: =21
+                Text: ="Kambing"
+                Width: =315
+                X: =26
+                Y: =86
+                ZIndex: =1
+
+            TextInput1_9 As text:
+                Default: ="Text input"
+                Height: =44
+                Size: =21
+                Width: =252
+                X: =352
+                Y: =30
+                ZIndex: =2
+
+            "'Ayam Perap pc_22' As groupContainer.manualLayoutContainer":
+                Height: =1210
+                Width: =571
+                X: =33
+                Y: =168
+                ZIndex: =3
+
+                Label6_35 As label:
+                    Height: =74
+                    Size: =32
+                    Text: ="Kambing Perap (Mini)"
+                    Width: =476
+                    X: =33
+                    Y: =667
+                    ZIndex: =1
+
+                "'Ayam Perap pc_23' As groupContainer.manualLayoutContainer":
+                    Height: =611
+                    Width: =571
+                    ZIndex: =3
+
+                    Image4_2 As image:
+                        Height: =611
+                        Image: ='download (1)'
+                        Width: =571
+                        ZIndex: =1
+
+                Label6_36 As label:
+                    Height: =44
+                    Size: =28
+                    Text: ="RM 28.90"
+                    Width: =195
+                    X: =33
+                    Y: =741
+                    ZIndex: =4
+
+                Label6_37 As label:
+                    Height: =150
+                    Size: =18
+                    Text: |-
+                        ="320 GRAM
+                        2 SLICES BAHAGIAN LAMB SHOULDER BERSAMA SOS LADA HITAM (150GRAM)
+                        EXPIRED DATE : 6 BULAN"
+                    Width: =479
+                    X: =63
+                    Y: =807
+                    ZIndex: =5
+
+                Label6_34 As label:
+                    Height: =27
+                    Size: =18
+                    Text: ="🔥 31 unit terjual"
+                    Width: =242
+                    X: =24
+                    Y: =640
+                    ZIndex: =7
+
+                Button1_9 As button:
+                    Height: =60
+                    Size: =24
+                    Text: ="Buy Now"
+                    Width: =171
+                    X: =370
+                    Y: =1026
+                    ZIndex: =8
+
+                Button1_8 As button:
+                    Height: =60
+                    Size: =24
+                    Text: ="Add Cart"
+                    Width: =172
+                    X: =186
+                    Y: =1026
+                    ZIndex: =9
+
