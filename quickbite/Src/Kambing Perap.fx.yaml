@@ -37,7 +37,7 @@
             Label4_7 As label:
                 Height: =62
                 Size: =21
-                Text: ="Ayam"
+                Text: ="Kambing"
                 Width: =315
                 X: =26
                 Y: =86
@@ -63,6 +63,12 @@
                     Height: =291
                     Width: =275
                     ZIndex: =3
+
+                    Image12 As image:
+                        Height: =291
+                        Image: ='download (4)'
+                        Width: =275
+                        ZIndex: =1
 
                 Label6_27 As label:
                     Height: =29
@@ -95,6 +101,12 @@
                     Height: =289
                     Width: =273
                     ZIndex: =2
+
+                    Image13 As image:
+                        Height: =289
+                        Image: ='download (3)'
+                        Width: =273
+                        ZIndex: =1
 
                 Label6_29 As label:
                     Height: =73

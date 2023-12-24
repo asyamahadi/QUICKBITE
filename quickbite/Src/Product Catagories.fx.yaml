@@ -53,7 +53,7 @@
                 ZIndex: =2
 
             "'Ayam Perap pc' As groupContainer.manualLayoutContainer":
-                Height: =202
+                Height: =187
                 Width: =542
                 X: =48
                 Y: =168
@@ -62,58 +62,76 @@
                 Label6 As label:
                     Height: =42
                     Size: =21
-                    Text: ="Text"
+                    Text: ="Ayam"
                     Width: =182
-                    X: =218
-                    Y: =58
+                    X: =220
+                    Y: =80
                     ZIndex: =1
 
+                Image6 As image:
+                    Height: =187
+                    Image: =ayam
+                    Width: =157
+                    ZIndex: =2
+
             Meatball As groupContainer.manualLayoutContainer:
-                Height: =202
+                Height: =187
                 Width: =542
                 X: =48
-                Y: =406
+                Y: =408
                 ZIndex: =4
 
                 Label6_1 As label:
                     Height: =42
                     Size: =21
-                    Text: ="Text"
+                    Text: ="Lembu"
                     Width: =182
-                    X: =40
-                    Y: =40
+                    X: =205
+                    Y: =72
                     ZIndex: =1
 
+                Image7 As image:
+                    Height: =187
+                    Image: ='download (2) (1)'
+                    Width: =160
+                    ZIndex: =2
+
             "'Kambing Perap pc' As groupContainer.manualLayoutContainer":
-                Height: =202
+                Height: =175
                 Width: =542
-                X: =49
-                Y: =648
+                X: =48
+                Y: =656
                 ZIndex: =5
 
                 Label6_2 As label:
                     Height: =42
                     Size: =21
-                    Text: ="Text"
+                    Text: ="Meatball"
                     Width: =182
-                    X: =40
-                    Y: =40
+                    X: =190
+                    Y: =66
                     ZIndex: =1
 
+                Image8 As image:
+                    Height: =175
+                    Image: ='download (1)'
+                    Width: =162
+                    ZIndex: =2
+
             "'Lembu Perap pc' As groupContainer.manualLayoutContainer":
-                Height: =202
+                Height: =175
                 Width: =542
                 X: =48
-                Y: =890
+                Y: =894
                 ZIndex: =6
 
                 Label6_3 As label:
                     Height: =42
                     Size: =21
-                    Text: ="Text"
+                    Text: ="Kambing"
                     Width: =182
-                    X: =40
-                    Y: =40
+                    X: =180
+                    Y: =56
                     ZIndex: =1
 
             Combo As groupContainer.manualLayoutContainer:

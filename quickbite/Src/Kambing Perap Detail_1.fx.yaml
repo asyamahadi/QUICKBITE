@@ -73,9 +73,9 @@
                     Width: =571
                     ZIndex: =3
 
-                    Image4_2 As image:
+                    Image10 As image:
                         Height: =611
-                        Image: ='download (1)'
+                        Image: ='download (3)'
                         Width: =571
                         ZIndex: =1
 
