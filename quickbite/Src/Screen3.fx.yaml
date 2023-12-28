@@ -90,8 +90,34 @@ Screen3 As screen:
         ZIndex: =2
 
     Icon1 As icon.Reload:
+        Height: =88
         Icon: =Icon.Reload
-        X: =412
-        Y: =12
+        OnSelect: =Refresh([@'QUICK BITE'])
+        PaddingBottom: =22
+        PaddingLeft: =22
+        PaddingRight: =22
+        PaddingTop: =22
+        TabIndex: =0
+        Width: =88
+        X: =376
         ZIndex: =3
+
+    Icon2 As icon.ArrowsUpDown:
+        Height: =88
+        Icon: =Icon.Sort
+        OnSelect: =If(SortDescending1, "Sort list in reverse alphabetical order", "Sort list in alphabetical order")
+        PaddingBottom: =26
+        PaddingLeft: =26
+        PaddingRight: =26
+        PaddingTop: =26
+        TabIndex: =0
+        Width: =88
+        X: =464
+        ZIndex: =4
+
+    Icon3 As icon.Add:
+        Icon: =Icon.Add
+        X: =40
+        Y: =40
+        ZIndex: =5
 
