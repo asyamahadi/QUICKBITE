@@ -90,6 +90,7 @@ Screen3 As screen:
         ZIndex: =2
 
     Icon1 As icon.Reload:
+        Color: =RGBA(255, 255, 255, 1)
         Height: =88
         Icon: =Icon.Reload
         OnSelect: =Refresh([@'QUICK BITE'])
@@ -103,6 +104,7 @@ Screen3 As screen:
         ZIndex: =3
 
     Icon2 As icon.ArrowsUpDown:
+        Color: =RGBA(255, 255, 255, 1)
         Height: =88
         Icon: =Icon.Sort
         OnSelect: =If(SortDescending1, "Sort list in reverse alphabetical order", "Sort list in alphabetical order")
@@ -116,8 +118,16 @@ Screen3 As screen:
         ZIndex: =4
 
     Icon3 As icon.Add:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =88
         Icon: =Icon.Add
-        X: =40
-        Y: =40
+        OnSelect: =falseNewForm(EditForm1);Navigate(EditScreen1, ScreenTransition.None)
+        PaddingBottom: =24
+        PaddingLeft: =24
+        PaddingRight: =24
+        PaddingTop: =24
+        TabIndex: =0
+        Width: =88
+        X: =552
         ZIndex: =5
 
