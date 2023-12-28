@@ -47,51 +47,6 @@
         Y: =TextSearchBox1.Y + TextSearchBox1.Height
         ZIndex: =5
 
-    PeopleAddedGallery1 As gallery.SelectedUsersGallery:
-        AccessibleLabel: ="User selected people"
-        Height: =Parent.Height - Self.Y
-        Items: =MyPeople
-        Layout: =Layout.Vertical
-        TemplateSize: =47
-        Width: =Parent.Width - Self.X * 2
-        WrapCount: =2
-        Y: =RectSeparator1.Y + RectSeparator1.Height
-        ZIndex: =6
-
-        Rectangle2 As rectangle:
-            Height: =Parent.TemplateHeight
-            OnSelect: =Select(Parent)
-            Width: =Parent.TemplateWidth
-            ZIndex: =1
-
-        Title1 As label:
-            FocusedBorderThickness: =2
-            Height: =PeopleAddedGallery1.TemplateHeight
-            OnSelect: =Set(_selectedUser, ThisItem)
-            PaddingLeft: =10
-            Size: =18
-            TabIndex: =If(UserBrowseGallery1.Visible, -1, 0)
-            Text: =ThisItem.DisplayName
-            Width: =PeopleAddedGallery1.TemplateWidth - iconRemove1.Width + 10
-            Wrap: =false
-            ZIndex: =2
-
-        iconRemove1 As icon.Cancel:
-            AccessibleLabel: =iconRemove1.Tooltip
-            Color: =Title1.Color
-            Height: =PeopleAddedGallery1.TemplateHeight
-            Icon: =Icon.Cancel
-            OnSelect: =Remove(MyPeople, LookUp(MyPeople, UserPrincipalName = ThisItem.UserPrincipalName))
-            PaddingBottom: =9
-            PaddingLeft: =9
-            PaddingRight: =9
-            PaddingTop: =9
-            TabIndex: =If(UserBrowseGallery1.Visible, -1, 0)
-            Tooltip: ="Select to remove user from collection"
-            Width: =Self.Height
-            X: =PeopleAddedGallery1.TemplateWidth - Self.Width
-            ZIndex: =3
-
     LblEmptyState1 As label:
         Align: =Align.Center
         Height: =88
@@ -107,7 +62,7 @@
     UserBrowseGallery1 As gallery.PeoplePickerGallery:
         AccessibleLabel: ="User look up search results"
         Fill: =TextSearchBox1.Fill
-        Height: =Parent.Height - Self.Y
+        Height: =815
         Items: |-
             =If(!IsBlank(Trim(TextSearchBox1.Text)), Office365Users.SearchUser({searchTerm: Trim(TextSearchBox1.Text), top: 15}))
         Layout: =Layout.Vertical
@@ -198,12 +153,12 @@
         DisplayMode: =DisplayMode.Edit
         Fill: =RGBA(0, 0, 0, 0)
         HeadingSize: =21
-        Height: =500
+        Height: =372
         Items: =Contacts
         Size: =21
         Width: =640
         X: =0
-        Y: =326
+        Y: =372
         ZIndex: =10
 
         "'Full Name_Column1' As dataTableColumn.textualColumn":
@@ -215,7 +170,7 @@
             LayoutHeight: =Parent.Height
             Order: =1
             Text: =ThisItem.'Full Name'
-            Width: =100
+            Width: =15
             X: =0
             Y: =0
             ZIndex: =7
@@ -230,7 +185,7 @@
             Order: =2
             Text: =ThisItem.Email
             Width: =100
-            X: =0
+            X: =369
             Y: =0
             ZIndex: =8
 
@@ -244,7 +199,16 @@
             Order: =4
             Text: =ThisItem.'Business Phone'
             Width: =100
-            X: =0
+            X: =12
             Y: =0
             ZIndex: =9
+
+    Button2 As button:
+        Height: =70
+        Size: =24
+        Text: ="Button"
+        Width: =280
+        X: =159
+        Y: =1028
+        ZIndex: =16
 

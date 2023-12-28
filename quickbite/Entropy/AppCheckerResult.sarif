@@ -588,36 +588,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'customer list'.PeopleAddedGallery1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'customer list'.PeopleAddedGallery1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "customer list",
-                "type": "'customer list'.PeopleAddedGallery1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'Ayam Perap Detail'.Canvas1_2.DataCard1_2.TextInput1_2.AccessibleLabel"
                 }
               ],
