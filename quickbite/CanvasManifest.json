@@ -98,7 +98,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 0,
+    "BindingErrorCount": 4,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "Phone",
@@ -113,7 +113,6 @@
     "FileID": "e4e46924-8c79-4f8b-91ba-b20765524879",
     "Id": "e4e46924-8c79-4f8b-91ba-b20765524879",
     "InstrumentationKey": "",
-    "LocalDatabaseReferences": "{}",
     "ManualOfflineProfileId": "",
     "Name": "oo",
     "OriginatingVersion": "1.336",
@@ -144,6 +143,6 @@
     "Kambing Perap Detail_1",
     "Lembu Perap",
     "Lembu Perap Detail",
-    "Screen2"
+    "customer list"
   ]
 }
