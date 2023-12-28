@@ -528,6 +528,320 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "DetailScreen1.Icon7.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "DetailScreen1.Icon7.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 9,
+                  "snippet": {
+                    "text": "'QUICK BITE'"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "DetailScreen1",
+                "type": "DetailScreen1.Icon7"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "QUICK BITE"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DetailScreen1.Icon7.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "DetailScreen1.Icon7.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 14,
+                  "charOffset": 24,
+                  "snippet": {
+                    "text": "BrowseGallery1"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "DetailScreen1",
+                "type": "DetailScreen1.Icon7"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "BrowseGallery1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DetailScreen1.Icon7.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "DetailScreen1.Icon7.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 9,
+                  "charOffset": 38,
+                  "snippet": {
+                    "text": ".Selected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "DetailScreen1",
+                "type": "DetailScreen1.Icon7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DetailScreen1.Icon7.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "DetailScreen1.Icon7.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 48,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Remove([@'QUICK BITE'], BrowseGallery1.Selected)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "DetailScreen1",
+                "type": "DetailScreen1.Icon7"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Remove"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DetailScreen1.Icon7.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "DetailScreen1.Icon7.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 71,
+                  "snippet": {
+                    "text": "'QUICK BITE'"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "DetailScreen1",
+                "type": "DetailScreen1.Icon7"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "QUICK BITE"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DetailScreen1.Icon7.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "DetailScreen1.Icon7.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 14,
+                  "charOffset": 86,
+                  "snippet": {
+                    "text": "BrowseGallery1"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "DetailScreen1",
+                "type": "DetailScreen1.Icon7"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "BrowseGallery1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DetailScreen1.Icon7.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "DetailScreen1.Icon7.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 9,
+                  "charOffset": 100,
+                  "snippet": {
+                    "text": ".Selected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "DetailScreen1",
+                "type": "DetailScreen1.Icon7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DetailScreen1.Icon7.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "DetailScreen1.Icon7.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 48,
+                  "charOffset": 62,
+                  "snippet": {
+                    "text": "Errors([@'QUICK BITE'], BrowseGallery1.Selected)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "DetailScreen1",
+                "type": "DetailScreen1.Icon7"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Errors"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "DetailScreen1.Icon5.AccessibleLabel"
                 }
               ],
@@ -1411,6 +1725,36 @@
                 "member": "AccessibleLabel",
                 "module": "DetailScreen1",
                 "type": "DetailScreen1.Icon7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DetailScreen1.Icon8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "DetailScreen1.Icon8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "DetailScreen1",
+                "type": "DetailScreen1.Icon8"
               }
             }
           ],
