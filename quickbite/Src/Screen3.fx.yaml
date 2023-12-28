@@ -84,3 +84,14 @@ Screen3 As screen:
             Width: =4
             ZIndex: =6
 
+    Rectangle1 As rectangle:
+        Height: =88
+        Width: =640
+        ZIndex: =2
+
+    Icon1 As icon.Reload:
+        Icon: =Icon.Reload
+        X: =412
+        Y: =12
+        ZIndex: =3
+
