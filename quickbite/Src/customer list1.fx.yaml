@@ -1,4 +1,4 @@
-BrowseScreen1 As screen:
+"'customer list1' As screen":
 
     Rectangle1 As rectangle:
         Height: =88

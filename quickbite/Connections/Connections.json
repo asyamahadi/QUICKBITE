@@ -1,4 +1,26 @@
 {
+  "1b970eb7-75d2-4695-9ab6-0d215e54397e": {
+    "connectionRef": {
+      "displayName": "Google Sheets",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1665/1.0.1665.3485/googlesheet/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_googlesheet"
+    },
+    "datasets": {
+      "1ryjvjO1v5H1koFCAcDb5LFdi-LnhOheinFNZcid454A": {
+        "dataSources": {
+          "Sheet1": {
+            "tableName": "0"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Sheet1"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "1b970eb7-75d2-4695-9ab6-0d215e54397e"
+  },
   "d5635330-6c1c-4f13-9885-135072fa5968": {
     "connectionRef": {
       "displayName": "Office 365 Users",

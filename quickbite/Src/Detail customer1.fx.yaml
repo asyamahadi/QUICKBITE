@@ -1,4 +1,4 @@
-DetailScreen1 As screen:
+"'Detail customer1' As screen":
 
     Rectangle1_1 As rectangle:
         Height: =88
@@ -18,7 +18,7 @@ DetailScreen1 As screen:
         Color: =RGBA(255, 255, 255, 1)
         Height: =88
         Icon: =Icon.Edit
-        OnSelect: =EditForm(EditForm1);Navigate(EditScreen1, ScreenTransition.None)
+        OnSelect: =
         PaddingBottom: =24
         PaddingLeft: =24
         PaddingRight: =24
@@ -32,7 +32,7 @@ DetailScreen1 As screen:
         Color: =RGBA(255, 255, 255, 1)
         Height: =88
         Icon: =Icon.Trash
-        OnSelect: =Remove([@'QUICK BITE'], BrowseGallery1.Selected); If (IsEmpty(Errors([@'QUICK BITE'], BrowseGallery1.Selected)), Back())
+        OnSelect: =
         PaddingBottom: =24
         PaddingLeft: =24
         PaddingRight: =24

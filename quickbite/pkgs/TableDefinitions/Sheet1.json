@@ -1,0 +1,7 @@
+{
+  "DataEntityMetadataJson": {
+    "0": "{\"name\":\"0\",\"title\":\"Sheet1\",\"x-ms-permission\":\"read-write\",\"schema\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"Name\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"x-ms-summary\":\"Name\"},\"Phone_x0020_Number\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"x-ms-summary\":\"Phone Number\"},\"Email\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"x-ms-summary\":\"Email\"},\"Address\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"x-ms-summary\":\"Address\"},\"__PowerAppsId__\":{\"type\":\"string\",\"x-ms-keyOrder\":1,\"x-ms-keyType\":\"primary\",\"x-ms-sort\":\"none\",\"x-ms-summary\":\"__PowerAppsId__\",\"x-ms-permission\":\"read-only\"}}}}}"
+  },
+  "EntityName": "Sheet1",
+  "TableName": "0"
+}
