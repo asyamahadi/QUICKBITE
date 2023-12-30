@@ -448,6 +448,46 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'detail order'.FormViewer2.Notes_DataCard1.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'detail order'.FormViewer2.Notes_DataCard1.Default",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".Notes"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Default",
+                "module": "detail order",
+                "type": "'detail order'.FormViewer2.Notes_DataCard1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Notes"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "'Kambing Perap Detail'.Canvas1_8.DataCard1_8.TextInput1_8.AccessibleLabel"
                 }
               ],
