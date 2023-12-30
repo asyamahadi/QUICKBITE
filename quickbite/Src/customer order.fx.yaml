@@ -91,7 +91,6 @@
             ZIndex: =6
 
     LblAppName3 As label:
-        Align: =Align.Center
         Height: =88
         Size: =27
         Text: ="customer order"
