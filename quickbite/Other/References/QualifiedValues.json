@@ -36,6 +36,40 @@
         "Information": "b053a39a-041a-4356-acef-ddf00182762b",
         "Social Profiles": "2205c86d-ed88-4a2f-a447-3b86a8781f2e"
       }
+    },
+    {
+      "Kind": "default.cds_activitypointer_forms",
+      "Namespace": "Activities (Forms)",
+      "Values": {}
+    },
+    {
+      "Kind": "default.cds_msdyn_aibdatasetrecord_forms",
+      "Namespace": "AI Builder Dataset Records (Forms)",
+      "Values": {
+        "Information": "26bf8b4e-b044-48d4-a684-c03d4cf29deb"
+      }
+    },
+    {
+      "Kind": "default.cds_customeraddress_forms",
+      "Namespace": "Addresses (Forms)",
+      "Values": {
+        "Information": "df5bef3a-9237-40bd-a27c-2cd7fd434706"
+      }
+    },
+    {
+      "Kind": "default.cds_msfp_alert_forms",
+      "Namespace": "Customer Voice alert (Forms)",
+      "Values": {
+        "Information": "f5be270d-ac66-49af-8952-681fb5f99785"
+      }
+    },
+    {
+      "Kind": "default.cds_annotation_forms",
+      "Namespace": "Notes (Forms)",
+      "Values": {
+        "Information": "69e5bd50-3d3e-47ca-aabc-d47bcbe59775",
+        "Note Quick Create Form": "56edcfe7-b4f3-4378-bab5-fc8f40db3af3"
+      }
     }
   ]
 }

@@ -1367,6 +1367,14 @@
       "OptionSetReferenceItem1": {
         "OptionSetReferenceColumnName": "msft_datastate",
         "OptionSetReferenceEntityName": "Accounts"
+      },
+      "OptionSetReferenceItem2": {
+        "OptionSetReferenceColumnName": "msft_datastate",
+        "OptionSetReferenceEntityName": "Customer Voice alert"
+      },
+      "OptionSetReferenceItem3": {
+        "OptionSetReferenceColumnName": "msft_datastate",
+        "OptionSetReferenceEntityName": "Notes"
       }
     },
     "OptionSetTypeKey": "PicklistType",
