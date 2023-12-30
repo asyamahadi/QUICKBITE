@@ -12,3 +12,21 @@ Component1 As CanvasComponent:
         Y: =40
         ZIndex: =1
 
+    Icon6 As icon.Reload:
+        Height: =88
+        Icon: =Icon.Reload
+        PaddingBottom: =22
+        PaddingLeft: =22
+        PaddingRight: =22
+        PaddingTop: =22
+        TabIndex: =0
+        Width: =88
+        X: =372
+        Y: =40
+        ZIndex: =2
+
+    Icon9 As icon.ArrowsUpDown:
+        Icon: =Icon.Sort
+        X: =464
+        ZIndex: =3
+
