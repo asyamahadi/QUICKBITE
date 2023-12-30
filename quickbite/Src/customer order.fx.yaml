@@ -150,3 +150,15 @@
         Y: =88
         ZIndex: =6
 
+    Icon11 As icon.Search:
+        Color: =RGBA(166, 166, 166, 1)
+        Height: =68
+        Icon: =Icon.Search
+        PaddingBottom: =14
+        PaddingLeft: =14
+        PaddingRight: =14
+        PaddingTop: =14
+        Width: =68
+        Y: =88
+        ZIndex: =7
+
