@@ -246,7 +246,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "12/30/2023 15:58:04",
+  "HeaderLastSavedDateTimeUTC": "12/30/2023 16:03:34",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "1b970eb7-75d2-4695-9ab6-0d215e54397e": "\"/providers/microsoft.powerapps/apis/shared_googlesheet/connections/433e090f8ed14f1d90ed3c43b5cafb21\"",
