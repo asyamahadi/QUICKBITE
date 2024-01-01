@@ -1,0 +1,96 @@
+payment As screen:
+
+    Rectangle7 As rectangle:
+        Fill: =RGBA(136, 160, 209, 1)
+        Height: =92
+        Width: =590
+        X: =28
+        Y: =207
+        ZIndex: =1
+
+    Label5 As label:
+        Height: =70
+        Size: =25
+        Text: ="Cash"
+        Width: =560
+        X: =43
+        Y: =219
+        ZIndex: =2
+
+    Rectangle7_3 As rectangle:
+        Fill: =RGBA(136, 160, 209, 1)
+        Height: =92
+        Width: =590
+        X: =28
+        Y: =436
+        ZIndex: =3
+
+    Rectangle7_4 As rectangle:
+        Fill: =RGBA(136, 160, 209, 1)
+        Height: =92
+        Width: =590
+        X: =28
+        Y: =320
+        ZIndex: =4
+
+    Label5_1 As label:
+        Height: =70
+        Size: =25
+        Text: ="e-Wallet"
+        Width: =560
+        X: =43
+        Y: =331
+        ZIndex: =5
+
+    Label5_2 As label:
+        Height: =70
+        Size: =25
+        Text: ="Online banking"
+        Width: =560
+        X: =43
+        Y: =447
+        ZIndex: =6
+
+    Arrow1 As arrow.backArrow:
+        Height: =61
+        Width: =55
+        X: =40
+        Y: =40
+        ZIndex: =7
+
+    Label7 As label:
+        Height: =70
+        Size: =21
+        Text: ="Choose a payment method"
+        Width: =371
+        X: =112
+        Y: =35
+        ZIndex: =8
+
+    Circle1 As circle:
+        BorderColor: =RGBA(136, 160, 209, 1)
+        Fill: =RGBA(241, 244, 249, 1)
+        Height: =41
+        Width: =35
+        X: =556
+        Y: =233
+        ZIndex: =9
+
+    Circle1_1 As circle:
+        BorderColor: =RGBA(136, 160, 209, 1)
+        Fill: =RGBA(241, 244, 249, 1)
+        Height: =41
+        Width: =35
+        X: =556
+        Y: =342
+        ZIndex: =10
+
+    Circle1_2 As circle:
+        BorderColor: =RGBA(136, 160, 209, 1)
+        Fill: =RGBA(241, 244, 249, 1)
+        Height: =41
+        Width: =35
+        X: =556
+        Y: =461
+        ZIndex: =11
+
