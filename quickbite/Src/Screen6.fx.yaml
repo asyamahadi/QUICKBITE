@@ -1,0 +1,218 @@
+Screen6 As screen:
+
+    Rectangle11 As rectangle:
+        Fill: =RGBA(136, 160, 209, 1)
+        Height: =76
+        Width: =560
+        X: =40
+        Y: =169
+        ZIndex: =2
+
+    Arrow1_2 As arrow.backArrow:
+        Height: =61
+        Width: =55
+        X: =40
+        Y: =60
+        ZIndex: =3
+
+    Rectangle11_1 As rectangle:
+        Fill: =RGBA(136, 160, 209, 1)
+        Height: =76
+        Width: =560
+        X: =40
+        Y: =288
+        ZIndex: =4
+
+    Rectangle11_2 As rectangle:
+        Fill: =RGBA(136, 160, 209, 1)
+        Height: =76
+        Width: =560
+        X: =40
+        Y: =408
+        ZIndex: =5
+
+    Rectangle11_3 As rectangle:
+        Fill: =RGBA(136, 160, 209, 1)
+        Height: =76
+        Width: =560
+        X: =40
+        Y: =532
+        ZIndex: =6
+
+    Rectangle11_4 As rectangle:
+        Fill: =RGBA(136, 160, 209, 1)
+        Height: =76
+        Width: =560
+        X: =40
+        Y: =648
+        ZIndex: =7
+
+    Rectangle11_5 As rectangle:
+        Fill: =RGBA(136, 160, 209, 1)
+        Height: =76
+        Width: =560
+        X: =40
+        Y: =765
+        ZIndex: =8
+
+    Label9 As label:
+        Height: =70
+        Size: =21
+        Text: ="Maybank"
+        Width: =560
+        X: =40
+        Y: =169
+        ZIndex: =9
+
+    Label9_1 As label:
+        Height: =70
+        Size: =21
+        Text: ="RHB Bank"
+        Width: =243
+        X: =40
+        Y: =291
+        ZIndex: =10
+
+    Label9_2 As label:
+        Height: =70
+        Size: =21
+        Text: ="Bank Islam"
+        Width: =321
+        X: =40
+        Y: =411
+        ZIndex: =11
+
+    Label9_3 As label:
+        Height: =70
+        Size: =21
+        Text: ="Bnak Muamalat"
+        Width: =361
+        X: =40
+        Y: =538
+        ZIndex: =12
+
+    Label9_4 As label:
+        Height: =70
+        Size: =21
+        Text: ="BSN"
+        Width: =405
+        X: =40
+        Y: =654
+        ZIndex: =13
+
+    Label9_5 As label:
+        Height: =70
+        Size: =21
+        Text: ="CIMB"
+        Width: =415
+        X: =40
+        Y: =771
+        ZIndex: =14
+
+    Rectangle11_6 As rectangle:
+        Fill: =RGBA(136, 160, 209, 1)
+        Height: =76
+        Width: =560
+        X: =40
+        Y: =887
+        ZIndex: =15
+
+    Rectangle11_7 As rectangle:
+        Fill: =RGBA(136, 160, 209, 1)
+        Height: =76
+        Width: =560
+        X: =40
+        Y: =996
+        ZIndex: =16
+
+    Label9_6 As label:
+        Height: =70
+        Size: =21
+        Text: ="AmBank"
+        Width: =321
+        X: =40
+        Y: =893
+        ZIndex: =17
+
+    Label9_7 As label:
+        Height: =70
+        Size: =21
+        Text: ="Hong Leong Bank"
+        Width: =428
+        X: =40
+        Y: =1002
+        ZIndex: =18
+
+    Icon17 As icon.ChevronRight:
+        Height: =41
+        Icon: =Icon.ChevronRight
+        Width: =38
+        X: =543
+        Y: =185
+        ZIndex: =19
+
+    Icon17_1 As icon.ChevronRight:
+        Height: =41
+        Icon: =Icon.ChevronRight
+        Width: =38
+        X: =543
+        Y: =303
+        ZIndex: =20
+
+    Icon17_2 As icon.ChevronRight:
+        Height: =41
+        Icon: =Icon.ChevronRight
+        Width: =38
+        X: =543
+        Y: =429
+        ZIndex: =21
+
+    Icon17_3 As icon.ChevronRight:
+        Height: =41
+        Icon: =Icon.ChevronRight
+        Width: =38
+        X: =543
+        Y: =552
+        ZIndex: =22
+
+    Icon17_4 As icon.ChevronRight:
+        Height: =41
+        Icon: =Icon.ChevronRight
+        Width: =38
+        X: =543
+        Y: =669
+        ZIndex: =23
+
+    Icon17_5 As icon.ChevronRight:
+        Height: =41
+        Icon: =Icon.ChevronRight
+        Width: =38
+        X: =543
+        Y: =785
+        ZIndex: =24
+
+    Label10 As label:
+        Height: =70
+        Size: =21
+        Text: ="Choose your bank"
+        Width: =263
+        X: =111
+        Y: =55
+        ZIndex: =25
+
+    Icon17_6 As icon.ChevronRight:
+        Height: =41
+        Icon: =Icon.ChevronRight
+        Width: =38
+        X: =543
+        Y: =904
+        ZIndex: =26
+
+    Icon17_7 As icon.ChevronRight:
+        Height: =41
+        Icon: =Icon.ChevronRight
+        Width: =38
+        X: =543
+        Y: =1016
+        ZIndex: =27
+

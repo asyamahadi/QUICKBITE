@@ -24,7 +24,6 @@
             DataCardKey7 As label:
                 AutoHeight: =true
                 Height: =48
-                PaddingBottom: =0
                 Size: =21
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -63,7 +62,6 @@
             DataCardKey10 As label:
                 AutoHeight: =true
                 Height: =48
-                PaddingBottom: =0
                 Size: =21
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -101,7 +99,6 @@
             DataCardKey11 As label:
                 AutoHeight: =true
                 Height: =48
-                PaddingBottom: =0
                 Size: =21
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
